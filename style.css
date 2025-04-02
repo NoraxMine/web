@@ -51,9 +51,60 @@ a {
     border-style: none;
     background-color:#0070A0;
     padding: 6px 20px;
-    margin-left: 31px;
+    /* margin-left: 31px;  */
+}
+
+.bb2 {
+    margin-right: 24px
 }
 
 a:hover {
     color:#0070A0
+}
+.main-info{
+    margin: 70px auto 120px auto;
+    display: flex;
+    justify-content: space-between;
+
+} 
+
+.main-heading {
+    font-family: "Fraunces", serif;
+    font-size: 58px;
+    color: #1F1F1F;
+    font-weight: 400;
+}
+
+.main-info-text {
+    font-size: 20px;
+    color: #1F1F1F;
+    width: 380px;
+}
+
+.main-info-left {
+    width: 525px;
+
+}
+
+.MAIN-INFO-BUTTON {
+    display: flex;
+
+}
+
+.main-text-block img {
+    margin-left: 20 px;
+    padding-right: 60px ;
+}
+
+
+.text-tocf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.text-f {
+    padding: 20px;
+    background: red;
+    width: 300px;
 }
