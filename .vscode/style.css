@@ -3,11 +3,6 @@ body {
     font-size: 15px;
     color: #1F1F1F;
 }
-
-p {
-    margin: 0;
-}
-
 .container {
     max-width: 1130px;
     margin: 0 auto;
@@ -257,103 +252,4 @@ h3 {
     background-color: #E6F7FF;
     padding: 2px 12px 4px 12px;
     width: fit-content;
-}
-.start {
-    background-color:#E6F7FF ;
-    margin: 80px auto 130px auto;
-}
-
-.started-block {
-    width: 480px;
-    padding: 64px 0 64px 64px;
-}
-
-.start-info {
-    font-size: 18px;
-    margin-top: 21px;
-    margin-bottom: 33px;
-}
-
-.start-about p {
-    font-size: 13px;
-    color: #626A72;
-    margin-right: 36px;
-    margin-top: 20px;
-}
-
-.start-about p::before {
-    content: url(assets/strelka.svg);
-}
-
-.start-about {
-    display: flex;
-}
-
-.footer-up {
-    display: flex;
-    padding-bottom:68px ;
-    border-bottom: 1px solid #DEE5EB;
-    justify-content: space-between;
-}
-
-.footer-info {
-    width: 430px;
-}
-
-.footer-info img{
-    margin-bottom: 10px;
-}
-
-.footer-link {
-    color: #0070A0;
-}
-
-h6 {
-    margin: 0;
-    margin-bottom: 15px;
-    font-size: 15px;
-    font-weight: 400;
-}
-
-.footer-nav a{
-    display:block ;
-    color: #626A72;
-    font-size: 13px;
-    margin-bottom: 10px;
-}
-
-.footer-news {
-    width: 230px;
-}
-
-.footer-news input {
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #C2CDD8;
-    margin-top: 14px;
-    padding: 17px 0 7px 15px;
-}
-
-.footer-news button {
-    border: none;
-    background: none;
-}
-
-.footer-news button::after {
-    content: url(assets/strelka_vpravo.svg);
-}
-
-.footer-down {
-    margin-top: 36px;
-    margin-bottom: 32px;
-    display:flex ;
-    justify-content: space-between;
-}
-
-.footer-down p {
-    font-size: 13px;
-}
-
-.footer-social {
-    margin-right: 20px;
 }
